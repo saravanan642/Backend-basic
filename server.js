@@ -18,3 +18,12 @@ app.get("/",(req,res)=>{
     res.send("tha values is " + value)
 });
 
+app.get("/name", (req, res) => {
+    let result = "";
+
+    for (let i = 1; i <= 10; i++) {
+        result += "saravanan <br>";
+    }
+
+    res.send(result);
+});
