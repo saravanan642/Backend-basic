@@ -14,16 +14,20 @@ const b=30
 const value = a+b 
 console.log(value);
 
-app.get("/",(req,res)=>{
-    res.send("tha values is " + value)
-});
+// app.get("/",(req,res)=>{
+//     res.send("tha values is " + value)
+// });
 
-app.get("/name", (req, res) => {
-    let result = "";
+// app.get("/name", (req, res) => {
+//     let result = "";
 
-    for (let i = 1; i <= 10; i++) {
-        result += "saravanan <br>";
-    }
+//     for (let i = 1; i <= 10; i++) {
+//         result += "saravanan <br>";
+//     }
 
-    res.send(result);
-});
+//     res.send(result);
+// });
+
+for(i=1;i<10; i++){
+  console.log(i + " x 4  "+ " = " + (4 * i));
+}
